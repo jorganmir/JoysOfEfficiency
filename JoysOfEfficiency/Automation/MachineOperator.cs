@@ -58,7 +58,7 @@ namespace JoysOfEfficiency.Automation
                 obj.performObjectDropInAction(item, false, player);
                 if (!(obj.Name == "Furnace" || obj.Name == "Charcoal Kiln") || item.Stack == 0)
                 {
-                    player.reduceActiveItemByOne();
+               //     player.reduceActiveItemByOne();
                 }
 
                 return;
